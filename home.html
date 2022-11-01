@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch</title>
+</head>
+<body>
+    <h1>오늘의 급식은 뭘까요</h1>
+    <form method="post" action="/lunch">
+        <input placeholder="알고싶은 날짜를  입력해주세요 ex)2022/xx/xx" name="tam"><br>
+        <label>아침<input type="radio" name="점심" value="moing"></label>
+        <label>잠심<input type="radio" name="점심" value="lunch"></label>
+        <label>저녁<input type="radio" name="점심" value="denner"></label>
+        <input type="submit" value="검색">
+    </form>
+</body>
+</html>
